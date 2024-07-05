@@ -16,22 +16,27 @@
     </head>
 
     <body>
-        <!-- Header -->
-        <section id="header">
-            <header class="pt-4 pb-3 text-bg-dark">
-                <div class="container align-items-center justify-content-center">
-
-                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                        <li><a href="#" class="nav-link px-4 text-secondary">Home</a></li>
-                        <li><a href="#about" class="nav-link px-4 text-white">About Me</a></li>
-                        <li><a href="./public/Capstone Project 1 - Online Resume/index.html"
-                                class="nav-link px-4 text-white">My Resume</a></li>
-                        <li><a href="#works" class="nav-link px-4 text-white">My Works</a></li>
-                        <li><a href="#contact" class="nav-link px-4 text-white">Contact Me</a></li>
-                    </ul>
+        <!-- Navbar -->
+        <section id="navbar">
+            <nav class="navbar navbar-expand-lg bg-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler navbar-dark border border-2 border-light " type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="#" class="nav-link px-4 text-secondary">Home</a></li>
+                            <li class="nav-item"><a href="#about" class="nav-link px-4 text-white">About Me</a></li>
+                            <li class="nav-item"><a href="./public/Capstone Project 1 - Online Resume/index.html"
+                                    class="nav-link px-4 text-white">My Resume</a></li>
+                            <li class="nav-item"><a href="#works" class="nav-link px-4 text-white">My Works</a></li>
+                            <li class="nav-item"><a href="#contact" class="nav-link px-4 text-white">Contact Me</a></li>
+                        </ul>
+                    </div>
                 </div>
-                </div>
-            </header>
+            </nav>
         </section>
 
         <!-- Title -->
@@ -49,14 +54,12 @@
         <section id="about">
             <div class="container my-5">
                 <div class="p-5 text-center bg-body-tertiary">
-                    <div class="row align-items-center g-lg-5 py-5 px-5">
+                    <div class="row align-items-center g-lg-5 py-5">
                         <div class="col-lg-7 text-center text-lg-start">
                             <h2 class="cardo display-4 fw-bold lh-1 text-body-emphasis mb-3">Hello</h2>
-                            <p class="col-lg-10 fs-4 ">My name is Yair Shtern, I am a dedicated Software and Web
-                                Developer with a BSc in
-                                Computer
-                                Science from the Hebrew University of Jerusalem. Passionate about continuous
-                                learning and improvement, I
+                            <p class="col-lg-10 fs-4">My name is Yair Shtern, I am a dedicated Software and Web
+                                Developer with a BSc in Computer Science from the Hebrew University of Jerusalem.
+                                Passionate about continuous learning and improvement, I
                                 love exploring new technologies and creating innovative solutions that exceed user
                                 expectations.</p>
                         </div>
@@ -74,13 +77,13 @@
             <div class="container py-5">
                 <div class="p-5 text-center bg-body-tertiary">
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                        <div class="col-xl-4 col-md-6 col-sm-12">
+                        <div class="col-xl-4 col-sm-12">
                             <div class="card shadow-sm rounded-4">
                                 <img class="bd-placeholder-img card-img-top" src="./assets/img/tindog.png" alt="tindog"
                                     height="250">
                                 <div class="card-body">
                                     <h3 class="title">TinDog</h3>
-                                    <p class="card-text">HTML & CSS for Tinder-like app for dogs.</p>
+                                    <p class="card-text">HTML & CSS for Tinder app for dogs.</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <a href="https://yair-shtern.github.io/TinDog/"> <button type="button"
@@ -92,7 +95,7 @@
                             </div>
                         </div>
 
-                        <div class="col-xl-4 col-md-6 col-sm-12">
+                        <div class="col-xl-4 col-sm-12">
                             <div class="card shadow-sm rounded-4 ">
                                 <img class="bd-placeholder-img card-img-top" src="./assets/img/hotel.png" alt="hotel"
                                     height="250">
@@ -110,7 +113,7 @@
                             </div>
                         </div>
 
-                        <div class="col-xl-4 col-md-6 col-sm-12">
+                        <div class="col-xl-4 col-sm-12">
                             <div class="card shadow-sm rounded-4 ">
                                 <img class="bd-placeholder-img card-img-top" src="./assets/img/mondrian.png"
                                     alt="mondrian img" height="250">
@@ -137,45 +140,47 @@
             <div class="container px-4 py-5" id="hanging-icons">
                 <h2 class="cardo display-5 fw-bold lh-1 text-body-emphasis text-center border-bottom pb-5">Contact Me
                 </h2>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 py-5">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 py-5">
                     <div class="col d-flex flex-column align-items-center text-center">
                         <div
-                            class="feature-icon d-flex align-items-center justify-content-center text-bg-secondary bg-gradient fs-2 mb-3 p-3">
-                            <img src="./assets/icons/envelope.svg" alt="envelope" height="30">
+                            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-secondary bg-gradient fs-4 mb-3 p-2 p-sm-3">
+                            <img src="./assets/icons/envelope.svg" alt="envelope" class="img-fluid"
+                                style="height: 1.5em;">
                         </div>
-                        <h3 class="fs-2 text-body-emphasis">Gmail</h3>
-                        <p>yairshteren1@gmail.com</p>
+                        <h3 class="fs-4 fs-sm-3 fs-lg-2 text-body-emphasis">Gmail</h3>
+                        <p class="small">yairshteren1@gmail.com</p>
                     </div>
                     <div class="col d-flex flex-column align-items-center text-center">
                         <div
-                            class="feature-icon d-flex align-items-center justify-content-center text-bg-secondary bg-gradient fs-2 mb-3 p-3">
-                            <img src="./assets/icons/telephone.svg" alt="envelope" height="30">
+                            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-secondary bg-gradient fs-4 mb-3 p-2 p-sm-3">
+                            <img src="./assets/icons/telephone.svg" alt="telephone" class="img-fluid"
+                                style="height: 1.5em;">
                         </div>
-                        <h3 class="fs-2 text-body-emphasis">Phone</h3>
-                        <p>+972-054-746-7439</p>
+                        <h3 class="fs-4 fs-sm-3 fs-lg-2 text-body-emphasis">Phone</h3>
+                        <p class="small">+972-054-746-7439</p>
                     </div>
                     <div class="col d-flex flex-column align-items-center text-center">
                         <div
-                            class="feature-icon d-flex align-items-center justify-content-center text-bg-secondary bg-gradient fs-2 mb-3 p-3">
-                            <img src="./assets/icons/linkedin.svg" alt="envelope" height="30">
+                            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-secondary bg-gradient fs-4 mb-3 p-2 p-sm-3">
+                            <img src="./assets/icons/linkedin.svg" alt="linkedin" class="img-fluid"
+                                style="height: 1.5em;">
                         </div>
-                        <h3 class="fs-2 text-body-emphasis">LinkedIn</h3>
-                        <a href="http://linkedin.com/in/yairshtern">
-                            <p>my_linkedin</p>
+                        <h3 class="fs-4 fs-sm-3 fs-lg-2 text-body-emphasis">LinkedIn</h3>
+                        <a href="http://linkedin.com/in/yairshtern" class="text-decoration-none">
+                            <p class="small">my_linkedin</p>
                         </a>
                     </div>
                     <div class="col d-flex flex-column align-items-center text-center">
                         <div
-                            class="feature-icon d-flex align-items-center justify-content-center text-bg-secondary bg-gradient fs-2 mb-3 p-3">
-                            <img src="./assets/icons/github.svg" alt="envelope" height="30">
+                            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-secondary bg-gradient fs-4 mb-3 p-2 p-sm-3">
+                            <img src="./assets/icons/github.svg" alt="github" class="img-fluid" style="height: 1.5em;">
                         </div>
-                        <h3 class="fs-2 text-body-emphasis">GitHub</h3>
-                        <a href="https://github.com/yair-shtern">
-                            <p>my_github</p>
+                        <h3 class="fs-4 fs-sm-3 fs-lg-2 text-body-emphasis">GitHub</h3>
+                        <a href="https://github.com/yair-shtern" class="text-decoration-none">
+                            <p class="small">my_github</p>
                         </a>
                     </div>
                 </div>
-
             </div>
         </section>
 
