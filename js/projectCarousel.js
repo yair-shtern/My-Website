@@ -57,8 +57,8 @@ projects.forEach((project, index) => {
         <div class="carousel-item ${isActive}">
             <div class="row justify-content-center">
                 <div class="col-md-6">
-                    <div class="card shadow-sm rounded-4">
-                        <img class="card-img-top" src="${project.imgSrc}" alt="${project.title}" style="height: 250px; object-fit: cover;">
+                    <div class="card custom-shadow rounded-4">
+                        <img class="card-img-top rounded-top-4" src="${project.imgSrc}" alt="${project.title}" style="height: 250px; object-fit: cover; padding: 0; margin: 0;">
                         <div class="card-body text-center d-flex flex-column" style="height: 150px;">
                             <h3 class="title mb-2">${project.title}</h3>
                             <div style="flex: 1; min-height: 0;">
