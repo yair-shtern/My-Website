@@ -3,8 +3,80 @@
     font-weight: 700;
     font-style: normal;
 }
+
 .feature-icon {
     width: 4rem;
     height: 4rem;
     border-radius: .75rem;
-  }
+}
+
+/* Fix for works section overflow */
+#works {
+    overflow-x: hidden;
+}
+
+/* Improved carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    height: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+    left: 5%;
+}
+
+.carousel-control-next {
+    right: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/* Make carousel controls more visible on light backgrounds */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Ensure proper spacing between sections */
+#works,
+#contact {
+    position: relative;
+    z-index: 1;
+}
+
+/* Ensure card body has a fixed height and does not overflow */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;  /* Adjust as needed */
+    overflow: hidden;  /* Prevents text overflow */
+}
+
+/* Ensure text is truncated when it's too long */
+.card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; /* Prevents text wrapping */
+}
+
+/* If you want the text to scroll instead of being truncated */
+.card-body {
+    overflow-y: auto;  /* Makes the text scrollable if it overflows */
+}
+
+/* Add responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .card-body {
+        height: auto;  /* Allow card to expand on smaller screens */
+    }
+}
