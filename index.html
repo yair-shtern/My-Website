@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Yair Shtern</title>
+        <link rel="icon" type="image/png" href="./assets/icons/icon.png">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/style.css">
@@ -20,7 +21,7 @@
         <section id="navbar">
             <nav class="navbar navbar-expand-lg bg-dark">
                 <div class="container-fluid">
-                    <button class="navbar-toggler navbar-dark border border-1 border-light " type="button"
+                    <button class="navbar-toggler navbar-dark border border-light " type="button"
                         data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -29,8 +30,9 @@
                         <ul class="navbar-nav">
                             <li class="nav-item"><a href="#" class="nav-link px-4 text-secondary">Home</a></li>
                             <li class="nav-item"><a href="#about" class="nav-link px-4 text-white">About Me</a></li>
-                            <li class="nav-item"><a href="./public/Capstone Project 1 - Online Resume/index.html"
-                                    class="nav-link px-4 text-white">My Resume</a></li>
+                            <li class="nav-item">
+                                <a href="./assets/Yair%20Shtern%20-%20CV.pdf" class="nav-link px-4 text-white" target="_blank">My Resume</a>
+                            </li>                                
                             <li class="nav-item"><a href="#works" class="nav-link px-4 text-white">My Works</a></li>
                             <li class="nav-item"><a href="#contact" class="nav-link px-4 text-white">Contact Me</a></li>
                         </ul>
@@ -57,14 +59,13 @@
                     <div class="row align-items-center g-lg-5 py-5">
                         <div class="col-lg-7 text-center text-lg-start">
                             <h2 class="cardo display-4 fw-bold lh-1 text-body-emphasis mb-3">Hello</h2>
-                            <p class="col-lg-10 fs-4">My name is Yair Shtern, I am a dedicated Software and Web
-                                Developer with a BSc in Computer Science from the Hebrew University of Jerusalem.
-                                Passionate about continuous learning and improvement, I
-                                love exploring new technologies and creating innovative solutions that exceed user
-                                expectations.</p>
+                            <p class="col-lg-10 fs-4">
+                                My name is Yair Shtern, a Software Engineer with a BSc in Computer Science from the Hebrew University of Jerusalem. 
+                                I am passionate about leveraging technology to create innovative and impactful solutions while continuously honing my skills.
+                            </p>
                         </div>
                         <div class="col-md-10 mx-auto col-lg-5 text-center">
-                            <img class="img-fluid rounded-3 bg-body-tertiary" src="./assets/img/profile-img.jpg"
+                            <img class="img-fluid rounded-3 bg-body-tertiary" src="./assets/img/profile-img.jpg" 
                                 alt="profile image" height="400">
                         </div>
                     </div>
@@ -72,69 +73,45 @@
             </div>
         </section>
 
-        <!-- Works -->
-        <section id="works">
-            <div class="container py-5">
-                <div class="p-5 text-center bg-body-tertiary">
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                        <div class="col-xl-4 col-sm-12">
-                            <div class="card shadow-sm rounded-4">
-                                <img class="bd-placeholder-img card-img-top" src="./assets/img/tindog.png" alt="tindog"
-                                    height="250">
-                                <div class="card-body">
-                                    <h3 class="title">TinDog</h3>
-                                    <p class="card-text">HTML & CSS for Tinder app for dogs.</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <a href="https://yair-shtern.github.io/TinDog/"> <button type="button"
-                                                    class="btn btn-sm btn-outline-secondary">View
-                                                    Project</button></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-4 col-sm-12">
-                            <div class="card shadow-sm rounded-4 ">
-                                <img class="bd-placeholder-img card-img-top" src="./assets/img/hotel.png" alt="hotel"
-                                    height="250">
-                                <div class="card-body">
-                                    <h3 class="title">A Hotel</h3>
-                                    <p class="card-text">UX/UI design for a luxury hotel website.</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <a href="https://1vcbwbfnh9w3pwlegp5una.my.canva.site/"> <button
-                                                    type="button" class="btn btn-sm btn-outline-secondary">View
-                                                    Project</button></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-4 col-sm-12">
-                            <div class="card shadow-sm rounded-4 ">
-                                <img class="bd-placeholder-img card-img-top" src="./assets/img/mondrian.png"
-                                    alt="mondrian img" height="250">
-                                <div class="card-body">
-                                    <h3 class="title">Mondrian</h3>
-                                    <p class="card-text">A Mondrian image - HTML & CSS only.</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <a href="https://yair-shtern.github.io/Mondrian/"> <button type="button"
-                                                    class="btn btn-sm btn-outline-secondary">View
-                                                    Project</button></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <!-- Experience -->
+        <section id="experience">
+            <div class="container my-5">
+                <div class="p-5 bg-body-tertiary rounded-3">
+                    <h2 class="cardo display-4 fw-bold lh-1 text-body-emphasis text-center mb-5">More About Me</h2>
+                    <p class="fs-4">
+                        I bring a diverse portfolio of experience, including Java-based simulations, full-stack web applications, and Android development. 
+                        My skill set spans multiple programming languages and frameworks, such as Java, Python, C++, JavaScript, React, and Node.js.
+                    </p>
+                    <p class="fs-4">
+                        In addition to my academic achievements, I have worked on projects that emphasize creative problem-solving and user-centric design. 
+                        Whether building interactive apps or solving complex challenges in machine learning, I am always eager to learn and push boundaries to achieve outstanding results.
+                    </p>
                 </div>
             </div>
         </section>
 
+        <!-- Works -->
+        <section id="works">
+            <div class="container py-5">
+                <h2 class="cardo display-5 fw-bold lh-1 text-body-emphasis text-center mb-5">My Projects</h2>
+        
+                <!-- Projects Carousel -->
+                <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner" id="carouselItems"></div>
+        
+                    <!-- Carousel Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        
         <!-- Contact -->
         <section id="contact">
             <div class="container px-4 py-5" id="hanging-icons">
@@ -198,6 +175,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"></script>
-    </body>
+            <script src="js/projectCarousel.js"></script>
+    </body>    
 
 </html>
