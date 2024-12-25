@@ -3,7 +3,15 @@
     font-weight: 700;
     font-style: normal;
 }
-
+.bg{
+    background: linear-gradient(135deg, #2f3d46, #3b4b57)
+}
+#works {
+    padding-top: 80px; /* Adjust the top padding as needed */
+    padding-bottom: 80px; /* Adjust the bottom padding as needed */
+    padding-left: 20px; /* Adjust left padding */
+    padding-right: 20px; /* Adjust right padding */
+}
 .feature-icon {
     width: 4rem;
     height: 4rem;
