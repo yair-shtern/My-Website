@@ -17,9 +17,10 @@
     </head>
 
     <body>
+        <div class="bg">
         <!-- Navbar -->
         <section id="navbar">
-            <nav class="navbar navbar-expand-lg bg-dark">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <button class="navbar-toggler navbar-dark border border-light " type="button"
                         data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -43,7 +44,7 @@
 
         <!-- Title -->
         <section id="title">
-            <div class="bg-dark text-secondary px-4 py-5 text-center">
+            <div class="text-secondary px-4 py-5 text-center">
                 <div class="py-5">
                     <h1 class="display-1 cardo fw-bold text-white">I'm Yair</h1>
                     <h2 class="fw-light text-white">A Software Engineer
@@ -51,6 +52,7 @@
                 </div>
             </div>
         </section>
+    </div>
 
         <!-- About -->
         <section id="about">
@@ -91,14 +93,14 @@
         </section>
 
         <!-- Works -->
-        <section id="works">
-            <div class="container py-5">
-                <h2 class="cardo display-5 fw-bold lh-1 text-body-emphasis text-center mb-5">My Projects</h2>
-        
+        <section id="works" class="bg">
+            <div class="container text-center text-white">
+                <h2 class="cardo display-5 fw-bold lh-1 text-white mb-5">My Projects</h2>
+
                 <!-- Projects Carousel -->
                 <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner" id="carouselItems"></div>
-        
+
                     <!-- Carousel Controls -->
                     <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -111,6 +113,7 @@
                 </div>
             </div>
         </section>
+
         
         <!-- Contact -->
         <section id="contact">
@@ -162,8 +165,8 @@
         </section>
 
         <!-- Footer -->
-        <section id="footer">
-            <div class="bg-dark px-4 py-5">
+        <section id="footer" class="bg">
+            <div class="px-4 py-5">
                 <div class="container">
                     <footer class="footer text-center">
                         <p class="text-light large mb-0">Copyright © Yair Shtern All rights Reserved. 2024</p>
